@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { useForm, FormProvider, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import ConnectMetamask from "@/components/ConnectMetamask";
@@ -162,7 +163,9 @@ const InteractionFunctionality = ({ data }: { data: dataProps }) => {
     <div className="bg-gray-900 text-white min-h-screen flex flex-col">
       <header className="bg-gradient-to-r from-green-400 to-blue-500 p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold">Kaia</h1>
+          <h1 className="text-3xl font-bold">
+            <Link href={"../mintable"}>Kaia</Link>
+          </h1>
           <div className="flex items-center space-x-4">
             <ConnectMetamask />
           </div>

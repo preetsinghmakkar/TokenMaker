@@ -8,7 +8,9 @@ export default function LandingPage() {
     <div className="bg-gray-900 text-white">
       <header className="bg-gradient-to-r from-green-400 to-blue-500 p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold">Kaia</h1>
+          <h1 className="text-3xl font-bold">
+            <Link href={"../mintable"}>Kaia</Link>
+          </h1>
           <nav className="space-x-4">
             <Link
               href={"https://klaytn.foundation/blog/"}
