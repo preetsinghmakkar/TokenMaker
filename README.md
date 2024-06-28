@@ -2,6 +2,10 @@
 
 This is an ERC20 token creation platform built with [Next.js](https://nextjs.org/) and ethers.js. The platform allows users to create various types of ERC20 tokens, including mintable, burnable, pausable, capped, and time-lock tokens, with a simple and intuitive web interface.
 
+## Live Demo
+
+Check out the live demo of the platform [here](https://kaia-erc20-creater.vercel.app/).
+
 ## Features
 
 - **Mintable Tokens**: Create tokens that can be minted by authorized addresses.
