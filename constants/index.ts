@@ -23,7 +23,7 @@ export const NAV_LINKS = [
     icons: null,
   },
   {
-    href: "https://github.com/preetsinghmakkar/",
+    href: "https://github.com/preetsinghmakkar/TokenMaker",
     key: "github",
     label: "Github",
     icons: Github,
