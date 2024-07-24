@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-Check out the platform [here](https://tokenmaker-ruddy.vercel.app/).
+Check out the platform [TokenMaker](https://tokenmaker-ruddy.vercel.app/).
 
 ## Features
 
