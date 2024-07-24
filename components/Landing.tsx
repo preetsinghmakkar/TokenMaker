@@ -77,7 +77,7 @@ const Landing = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://youtu.be/2VrVzpOl4xU"
+                src="https://www.youtube.com/embed/2VrVzpOl4xU"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
