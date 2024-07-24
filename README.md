@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-Check out the live demo of the platform [here](https://kaia-erc20-creater.vercel.app/).
+Check out the live demo of the platform [here](https://tokenmaker-ruddy.vercel.app/).
 
 ## Features
 
