@@ -1,6 +1,6 @@
 # TokenMaker
 
-![TokenMaker Logo](/public/logo.jpg)
+![TokenMaker Logo](/public/tutorial.png)
 
 **TokenMaker** is a sophisticated ERC20 token creation platform designed to simplify the process of creating various types of ERC20 tokens. Built with cutting-edge technologies, TokenMaker provides a seamless experience for users to deploy custom tokens on the Ethereum blockchain.
 
