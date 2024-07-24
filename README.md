@@ -1,41 +1,8 @@
-# ERC20 Token Creation Platform
-
-This is an ERC20 token creation platform built with [Next.js](https://nextjs.org/) and ethers.js. The platform allows users to create various types of ERC20 tokens, including mintable, burnable, pausable, capped, and time-lock tokens, with a simple and intuitive web interface.
-
-## Live Demo
-
-Check out the live demo of the platform [here](https://kaia-erc20-creater.vercel.app/).
-
-## Features
-
-- **Mintable Tokens**: Create tokens that can be minted by authorized addresses.
-- **Burnable Tokens**: Create tokens that can be burned, reducing the total supply.
-- **Pausable Tokens**: Create tokens that can be paused and unpaused, halting all transfers.
-- **Capped Tokens**: Create tokens with a maximum supply cap.
-- **Time-Lock Tokens**: Create tokens that are locked for a certain period.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, clone the repository:
-
-```bash
-git clone https://github.com/preetsinghmakkar/kaia-erc20-creater.git
-cd kaia-erc20-creater
-```
-
-## Install the dependencies:
-
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
-
-## Run the development server:
+First, run the development server:
 
 ```bash
 npm run dev
@@ -47,24 +14,23 @@ pnpm dev
 bun dev
 ```
 
-### Open http://localhost:3000 with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Contributing
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## License
+## Learn More
 
-This project is licensed under the MIT License.
+To learn more about Next.js, take a look at the following resources:
 
-## About Kaia Blockchain and Klaytn Token
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Kaia Blockchain is a robust blockchain platform that supports the creation and deployment of various types of tokens, including ERC20 tokens. Klaytn Token is the native token of Kaia Blockchain, used for transaction fees and governance within the ecosystem.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Author
+## Deploy on Vercel
 
-Preet Singh
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- [Github](https://github.com/preetsinghmakkar)
-- [LinkedIn](https://www.linkedin.com/in/preet-singh-a65967302/)
-- [X](https://twitter.com/Preet132319)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
