@@ -25,7 +25,7 @@ import {
 import { InteractFormSchema } from "@/constants";
 import { getSigner } from "@/constants/Signer";
 import { Oval } from "react-loader-spinner";
-import TransferToken from "../transferToken/page";
+import TransferToken from "../transferToken/TransferToken";
 import { CircleX } from "lucide-react";
 
 const InteractPage = () => {

@@ -1,5 +1,6 @@
 import { FOOTER_LINKS, SOCIALS } from "@/constants";
-import { Github, Linkedin, X } from "lucide-react";
+import { Linkedin, X } from "lucide-react";
+import { IconBrandGithub, IconBrandTwitter } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

@@ -270,7 +270,7 @@ const cards = [
           A Capped Token ensures a maximum supply that cannot be exceeded,
           providing a controlled and predictable token economy. This token type
           is ideal for projects that need a fixed supply to maintain scarcity
-          and value. The CappedToken smart contract utilizes OpenZeppelin's
+          and value. The CappedToken smart contract utilizes OpenZeppelin
           libraries to implement standard functionalities, including minting and
           burning by authorized users, while enforcing the cap limit.
         </p>
@@ -291,8 +291,8 @@ const cards = [
           or used until they are released. This feature is particularly useful
           for vesting schedules, delayed payments, or securing funds until
           certain conditions are met. The TimeLockToken contract integrates
-          OpenZeppelin's TokenTimelock to provide secure and reliable
-          time-locked token functionality.
+          OpenZeppelin TokenTimelock to provide secure and reliable time-locked
+          token functionality.
         </p>
       );
     },

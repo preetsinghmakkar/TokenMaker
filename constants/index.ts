@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { IconBrandGithub, IconX } from "@tabler/icons-react";
+import { Linkedin } from "lucide-react";
 import { z } from "zod";
 // NAVIGATION
 export const NAV_LINKS = [
@@ -26,7 +27,7 @@ export const NAV_LINKS = [
     href: "https://github.com/preetsinghmakkar/TokenMaker",
     key: "github",
     label: "Github",
-    icons: Github,
+    icons: IconBrandGithub,
   },
 ];
 
@@ -54,7 +55,7 @@ export const SOCIALS = [
     href: "https://x.com/Preet132319",
     key: "twitter",
     label: "Twitter",
-    icons: Twitter,
+    icons: IconX,
   },
   {
     href: "https://www.linkedin.com/in/preet-singh-a65967302/",
@@ -66,7 +67,7 @@ export const SOCIALS = [
     href: "https://github.com/preetsinghmakkar/TokenMaker",
     key: "github",
     label: "Github",
-    icons: Github,
+    icons: IconBrandGithub,
   },
 ];
 export const getWords = (type: string) => {

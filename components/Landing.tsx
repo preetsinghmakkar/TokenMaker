@@ -2,14 +2,14 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
-import { Linkedin, Twitter, Github } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-
+import { IconBrandGithub, IconX } from "@tabler/icons-react";
 import Link from "next/link";
 
 const Landing = () => {
@@ -94,7 +94,6 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* New Section: About the Creator */}
       <section
         id="Contact"
         className="flex flex-col items-center bg-gray-100 py-20"
@@ -115,21 +114,21 @@ const Landing = () => {
             </div>
             <div className="flex flex-col items-center md:items-start">
               <p className="text-lg text-gray-700 mb-4">
-                Hello! I'm Preet Singh, the creator of TokenMaker. With a
+                Hello! I&apos;m Preet Singh, the creator of TokenMaker. With a
                 passion for blockchain technology and decentralized
                 applications, I am dedicated to simplifying the token creation
                 process for everyone. My goal is to make blockchain accessible
                 and user-friendly.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                I've worked hard to ensure that TokenMaker offers an intuitive
-                and secure experience for creating and managing ERC20 tokens.
-                Feel free to connect with me through the links below!
+                I&apos;ve worked hard to ensure that TokenMaker offers an
+                intuitive and secure experience for creating and managing ERC20
+                tokens. Feel free to connect with me through the links below!
               </p>
               <div className="flex gap-4">
                 <Link href={"https://github.com/preetsinghmakkar/TokenMaker"}>
                   <Button className="gap-1">
-                    <Github className="w-6 h-6" />
+                    <IconBrandGithub className="w-6 h-6" />
                     GitHub
                   </Button>
                 </Link>
@@ -143,7 +142,7 @@ const Landing = () => {
                 </Link>
                 <Link href="https://x.com/Preet132319">
                   <Button className="gap-1">
-                    <Twitter className="w-6 h-6" />
+                    <IconX className="w-6 h-6" />
                     Twitter
                   </Button>
                 </Link>

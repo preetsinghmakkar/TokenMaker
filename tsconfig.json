@@ -27,7 +27,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/Sidebar.jsx",
-    "app/dashboard/transferToken/page.tsx"
+    "app/dashboard/transferToken/TransferToken.tsx"
   ],
   "exclude": ["node_modules"]
 }
