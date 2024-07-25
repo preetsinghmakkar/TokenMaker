@@ -102,12 +102,8 @@ const TransferToken: React.FC<TransferTokenProps> = ({ data }) => {
         args: [to, amount],
       });
 
-      console.log(hash);
-
-      console.log("Successfully Transferred");
       setIsDialogOpen(true);
     } catch (error) {
-      console.log("Error in Transfer:", error);
       seterrorTokenTransfer(
         "Unable to Transfer! For Help Get in Touch With Our Staff."
       );

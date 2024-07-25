@@ -70,7 +70,6 @@ const InteractPage = () => {
     const signer = await getSigner();
 
     if (!signer) {
-      console.error("Signer is not set");
       return null;
     }
 
@@ -112,7 +111,6 @@ const InteractPage = () => {
         type: data.tokenType,
         tokenAddress: data.address,
       });
-      console.log("CONTRACT : ", contract);
 
       const tokenName = await (contract as any).name();
       const tokenSymbol = await (contract as any).symbol();
@@ -123,7 +121,6 @@ const InteractPage = () => {
       setShowAnimation(true);
       setIsLoading(false);
     } catch (error) {
-      console.log("Error in Interacting : ", error);
       setErrorInInteraction(
         "Unable to Find Your Token! For Help Get in Touch With Our Staff"
       );

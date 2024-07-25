@@ -75,7 +75,6 @@ const Create: React.FC<CreateProps> = ({ type }) => {
     setFetchedSigner(signer);
 
     if (!signer) {
-      console.error("Signer is not set");
       return null;
     }
 
@@ -131,11 +130,7 @@ const Create: React.FC<CreateProps> = ({ type }) => {
   async function onSubmit(data: z.infer<typeof formSchema>) {
     setLoading(true);
     try {
-      console.log(data);
-
       const contract: any = await fetchContract();
-
-      console.log("Contract : ", contract);
 
       let deployContract;
 
@@ -162,8 +157,6 @@ const Create: React.FC<CreateProps> = ({ type }) => {
 
       await mintTx.wait();
 
-      console.log("Contract deployed at:", deployContract.target);
-
       setToken({
         name: data.name,
         symbol: data.symbol,
@@ -173,7 +166,6 @@ const Create: React.FC<CreateProps> = ({ type }) => {
 
       setShowAnimation(true);
     } catch (error) {
-      console.log("Error in Submit :", error);
       seterrorInTokenCreation(
         "Token Creation Failed; Please Try Again Later! or Get in Touch With Our Staff."
       );
