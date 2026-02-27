@@ -83,4 +83,4 @@ Preet Singh
 
 - [Github](https://github.com/preetsinghmakkar)
 - [LinkedIn](https://www.linkedin.com/in/preet-singh-a65967302/)
-- [X](https://twitter.com/Preet132319)
+- [X](https://x.com/RaOne_0xDev)

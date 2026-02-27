@@ -29,7 +29,6 @@ const Landing = () => {
           </div>
         </div>
 
-        <div className="hero-map" />
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
           <h1 className="bold-52">
             Create Your Own Custom ERC20 Tokens with Ease
@@ -54,7 +53,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section id="howItWorks" className="flexCenter flex-col bg-white py-20">
+      <section id="howItWorks" className="scroll-mt-24 flexCenter flex-col bg-white dark:bg-gray-900 py-20">
         <div className="max-container padding-container">
           <div className="grid gap-10 md:grid-cols-2">
             <div className="flex flex-col justify-center items-center md:items-center lg:items-center">
@@ -96,10 +95,10 @@ const Landing = () => {
 
       <section
         id="Contact"
-        className="flex flex-col items-center bg-gray-100 py-20"
+        className="scroll-mt-24 flex flex-col items-center bg-gray-100 dark:bg-gray-950 py-20"
       >
         <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold mb-10 text-center">
+          <h2 className="text-4xl font-bold mb-10 text-center dark:text-gray-100">
             About the Creator
           </h2>
           <div className="flex flex-col items-center gap-10 md:flex-row md:gap-20">
@@ -113,14 +112,14 @@ const Landing = () => {
               />
             </div>
             <div className="flex flex-col items-center md:items-start">
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                 Hello! I&apos;m Preet Singh, the creator of TokenMaker. With a
                 passion for blockchain technology and decentralized
                 applications, I am dedicated to simplifying the token creation
                 process for everyone. My goal is to make blockchain accessible
                 and user-friendly.
               </p>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                 I&apos;ve worked hard to ensure that TokenMaker offers an
                 intuitive and secure experience for creating and managing ERC20
                 tokens. Feel free to connect with me through the links below!
@@ -140,7 +139,7 @@ const Landing = () => {
                     LinkedIn
                   </Button>
                 </Link>
-                <Link href="https://x.com/Preet132319">
+                <Link href="https://x.com/RaOne_0xDev">
                   <Button className="gap-1">
                     <IconX className="w-6 h-6" />
                     Twitter
@@ -152,7 +151,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section id="FAQs" className="flexCenter flex-col bg-white py-20">
+      <section id="FAQs" className="scroll-mt-24 flexCenter flex-col bg-white dark:bg-gray-900 py-20">
         <div className="max-container padding-container">
           <h2 className="bold-40 mb-10 text-center">
             Frequently Asked Questions

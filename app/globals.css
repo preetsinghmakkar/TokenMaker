@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Inter;
 }
@@ -81,7 +85,7 @@ body {
     }
   } */
 
-@layer utilities {
+@layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -136,6 +140,17 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
   .btn_white {
     @apply border-white bg-white px-8 py-3 text-green-50;
   }
@@ -243,11 +258,6 @@ body {
 
   .bold-16 {
     @apply text-[16px] font-[700];
-  }
-
-  /* Hero */
-  .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
   /* Camp */
